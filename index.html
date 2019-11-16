@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Walmart</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/db033251d5.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+<body>
+	<!-- navbar -->
+	<div class="walmart-header">
+		<div class="container p-0">
+			<nav class="navbar navbar-expand-lg bg-default p-0">
+		    	<ul class="nav mr-auto d-none d-sm-block list-inline walmart-navigation">
+				    <li class="nav-item list-inline-item">
+				       <a class="nav-link text-white" href="#">Home</a>
+				    </li>
+				    <li class="nav-item list-inline-item">
+				       <a class="nav-link text-white" href="#">Delivery</a>
+				    </li>
+				    <li class="nav-item list-inline-item">
+				       <a class="nav-link text-white" href="#">Payment</a>
+				    </li>
+		    	</ul>
+		    	<ul class="nav list-inline">
+				    <li class="nav-item list-inline-item">
+				       <a class="nav-link text-white" href="#">Call: +99123456789</a>
+				    </li>
+				    <li class="nav-item dropdown list-inline-item">
+				        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          English
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				        	<a class="dropdown-item" href="#">Tamil</a>
+				        	<a class="dropdown-item" href="#">Malayalam</a>
+				        	<a class="dropdown-item" href="#">Telugu</a>
+				        </div>
+				    </li>
+		      	</ul>
+		  	</nav>
+		</div>
+	</div>
+	<!-- logo section -->
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col-lg-2 col-sm-12 col-md-2 col-12">
+				<div class="logo-img">
+					<img src="project-task-files/8_Walmart_400.png" class="walmart-logo" alt="logo ml">
+				</div>
+			</div>
+			<div class="col-lg-6 col-sm-12 col-md-6 col-12 mt-md-0 mt-lg-0">
+				<form class="input-group mt-2 mb-2">
+					<input type="text" placeholder="Search" class="form-control">
+				    <div class="input-group-append">
+				      	<button class="btn btn-primary" type="button">
+				        	<i class="fas fa-search"></i>
+				      	</button>
+				    </div>
+				</form>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-lg-3 col-sm-12 col-md-3 col-12 mt-2 mt-lg-0 mt-md-0 d-flex align-items-center">
+				<div class="mr-2 text-left d-flex align-items-start">
+					<span class="border border-secondary rounded-circle mr-3">
+					    <i class="fas fa-shopping-cart text-secondary p-md-3 p-3 pt-2 pt-md-2"></i>
+					</span>
+					<span class="border border-secondary rounded-circle">
+					     <i class="fas fa-user text-secondary p-md-3 p-3 pt-2 pt-md-2"></i>
+					</span>    
+				</div>
+				<div class="text-secondary">
+					<span>Welcome !</span><br>
+					<span>
+					<a href="#" class="text-secondary font-weight-bold">SignIn  |</a>
+					<a href="#" class="text-secondary font-weight-bold">Register</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- category list -->
+	<hr>
+	<div class="container">
+		<div class="row">
+			<nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse font-weight-bold" id="navbarTogglerDemo01">
+				    <a href="#" class="text-dark d-none d-sm-block"><i class="fa fa-bars"></i></a>
+				    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				      <li class="nav-item">
+				        <a class="nav-link text-dark" href="#">All category</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-dark" href="#">Fashion</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-dark" href="#">Supermarket</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-dark" href="#">Electronics</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-dark" href="#">Baby & Toys</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-dark" href="#">Fitness sport</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-dark" href="#">Clothing</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-dark" href="#">Furnitures</a>
+				      </li>
+				    </ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<hr>
+	<!-- Banner image -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 mt-2 mb-4">
+				<img src="project-task-files/1.jpg" class="img-fluid rounded" alt="Responsive image">
+			</div>
+		</div>
+	</div>
+	<!-- walmart-delivery -->
+	<div class="container mt-3 mb-5">
+	  	<div class="container rounded border mb-3">
+	  		<div class="row mt-3  walmart-delivery">
+			    <div class="col-sm">
+			    	<h3><i class="fas fa-truck text-primary" aria-hidden="true"></i><h3>
+			    	<h5 class="font-weight-bold mt-3">Fast delivery</h5>
+			    	<p class="small text-secondary">Dolor sit amet,consectetur adipis elit,set do eiusmod tempor incididunt ut labore</p>
+			    </div>
+			    <div class="col-sm">
+			      	<h3><i class="fas fa-university text-primary" aria-hidden="true"></i><h3>
+			      	<h5 class="font-weight-bold mt-3">Creative strategy</h5>
+			    	<p class="small text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit,set do eiusmod</p>
+			    </div>
+			    <div class="col-sm">
+			      	<h3><i class="fas fa-lock text-primary" aria-hidden="true"></i><h3>
+			      	<h5 class="font-weight-bold mt-3">High secured</h5>
+			    	<p class="small text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit,set do eiusmod</p>
+			    </div>
+			</div>
+		</div>
+<!--popular product section-->
+		<p class="font-weight-bolder pt-1">
+			<strong><h2>Popular Product</h2></strong>
+		</p>
+		<div class="card-deck mt-4">
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/1(1).jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Just another product name</span>
+			      	<div class="d-flex mt-1">
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star-o text-muted mt-1"></i>
+					    <span class="font-weight-normal text-muted ml-2">34 review</span>
+				    </div>
+				    <p class="font-weight-bold mt-2">$179.00</p>
+			    </div>
+			</div>
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/2.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Some item name here</span>
+			      	<div class="d-flex mt-1">
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star-o text-muted mt-1"></i>
+					    <span class="font-weight-normal text-muted ml-2">34 review</span>
+				    </div>
+				    <p class="font-weight-bold mt-2">$280.00</p>
+			    </div>
+			  </div>
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/3.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Great product name here</span>
+			      	<div class="d-flex mt-1">
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star-o text-muted mt-1"></i>
+					    <span class="font-weight-normal text-muted ml-2">34 review</span>
+				    </div>
+				    <p class="font-weight-bold mt-2">$56.00</p>
+			    </div>
+			</div>
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/4.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Just another product name</span>
+				    <div class="d-flex mt-1">
+				    	<i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star-o text-muted mt-1"></i>
+					    <span class="font-weight-normal text-muted ml-2">34 review</span>
+					</div>
+					 <p class="font-weight-bold mt-2">$170.00</p>
+			    </div>
+			</div>
+		</div>
+<!-- new arrived -->
+		<p class="font-weight-bolder pt-1">
+			<strong><h2>New arrived</h2></strong>
+		</p>
+		<div class="card-deck mt-5">
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/5.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Just another product name</span>
+			      	<div class="d-flex mt-1">
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star-o text-muted mt-1"></i>
+					    <span class="font-weight-normal text-muted ml-2">34 review</span>
+				    </div>
+				    <p class="font-weight-bold mt-2">$179.00</p>
+			    </div>
+			</div>
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/6.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Some item name here</span>
+			      	<div class="d-flex mt-1">
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star-o text-muted mt-1"></i>
+					    <span class="font-weight-normal text-muted ml-2">34 review</span>
+				    </div>
+				    <p class="font-weight-bold mt-2">$280.00</p>
+			    </div>
+			  </div>
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/7.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Great product name here</span>
+			      	<div class="d-flex mt-1">
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star-o text-muted mt-1"></i>
+					    <span class="font-weight-normal text-muted ml-2">34 review</span>
+				    </div>
+				    <p class="font-weight-bold mt-2">$56.00</p>
+			    </div>
+			</div>
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/9.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Just another product name</span>
+			      	<div class="d-flex mt-1">
+					    <i class="fas fa-star text-warning mt-1"></i>
+					    <i class="fas fa-star text-warning mt-1"></i>
+					    <i class="fas fa-star text-warning mt-1"></i>
+					    <i class="fas fa-star text-warning mt-1"></i>
+					    <i class="fa fa-star-o text-muted mt-1"></i>
+					    <span class="font-weight-normal text-muted ml-2">34 review</span>
+				    </div>
+				     <p class="font-weight-bold mt-2">$179.00</p>
+			    </div>
+			</div>
+		</div>
+<!-- recommended -->
+		<div class="row">
+			<div class="col-md-12 mt-4">
+				<strong><span class="fs-30 ">Recommended</span></strong>
+				<button type="button" class="btn btn-outline-info float-right">See all</button>
+			</div>
+		</div>
+		<div class="card-deck mt-5">
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/1(1).jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Just another product name</span>
+					<p class="font-weight-bold mt-2">$179.00</p>
+			    </div>
+			</div>
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/2.jpg" alt="Card image cap">
+				    <div class="card-body">
+				      	<span class="card-text font-weight-normal mb-2">Some product name here</span>
+				    	<p class="font-weight-bold mt-2">$280.00</p>
+				    </div>
+			  </div>
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/3.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Great product name here</span>
+				    <p class="font-weight-bold mt-2">$56.00</p>
+			    </div>
+			</div>
+			<div class="card">
+			    <img class="card-img-top" src="project-task-files/4.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      	<span class="card-text font-weight-normal mb-2">Just another product name</span>
+				    <p class="font-weight-bold mt-2">$179.00</p>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<!-- walmart brand -->
+	<div class="bg-light pb-3 pt-4">
+		<div class="container">
+			<h2 class="font-weight-bolder pb-2">Our Brands</h2>
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-6 col-6 pb-4">
+					<div class="card">
+						<div class="pt-3 pr-3 pl-3">
+						    <img class="card-img-top" src="project-task-files/logo1.png" alt="Card image cap">
+						   	<div class="col"><hr class="m-0"></div>
+						</div>   
+					    <div class="card-body align-content-center pt-0 text-center text-secondary">
+					      	<small class="font-weight-bold">36 products</small>
+					    </div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-6 pb-4">
+					<div class="card">
+						<div class="pt-3 pr-3 pl-3">
+						    <img class="card-img-top" src="project-task-files/logo2.png" alt="Card image cap">
+						    <div class="col"><hr class="m-0"></div> 
+						</div>   
+					    <div class="card-body pt-0 text-center text-secondary">
+					      	<small class="font-weight-bold">87 products</small>
+					    </div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-6 pb-4">
+					<div class="card">
+						<div class="pt-3 pr-3 pl-3">
+						    <img class="card-img-top" src="project-task-files/logo3.png" alt="Card image cap">
+						    <div class="col"><hr class="m-0"></div>
+						</div>   
+					    <div class="card-body pt-0 text-center text-secondary">
+					      	<small class="font-weight-bold">55 products</small>
+					    </div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-6 pb-4">
+					<div class="card">
+						<div class="pt-3 pr-3 pl-3">
+						    <img class="card-img-top" src="project-task-files/logo4.png" alt="Card image cap">
+						    <div class="col"><hr class="m-0"></div>
+						</div>   
+					    <div class="card-body pt-0 text-center text-secondary">
+					      	<small class="font-weight-bold">23 products</small>
+					    </div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-6 pb-4">
+					<div class="card">
+						<div class="pt-3 pr-3 pl-3">
+						    <img class="card-img-top" src="project-task-files/logo5.png" alt="Card image cap">
+						    <div class="col"><hr class="m-0"></div>
+						</div>   
+					    <div class="card-body pt-0 text-center text-secondary">
+					      	<small class="font-weight-bold">87 products</small>
+					    </div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-6 pb-4">
+					<div class="card">
+						<div class="pt-3 pr-3 pl-3">
+						    <img class="card-img-top" src="project-task-files/logo2.png" alt="Card image cap">
+						    <div class="col"><hr class="m-0"></div> 
+						</div>   
+					    <div class="card-body pt-0 pt-0 text-center text-secondary">
+					      	<small class="font-weight-bold">28 products</small>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- download apps -->
+	<div class="container pb-5">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-12">
+				<h3 class="font-weight-bolder pt-5 pb-2 text-body">Download app demo text</h3>
+			</div>	
+		</div>
+		<div class="row">	
+			<div class="col-md-2 col-sm-5 col-5 pr-1">
+				<img src="project-task-files/appstore.png" class="img-fluid">
+			</div>
+			<div class="col-md-2 col-sm-5 col-5 pl-1">
+				<img src="project-task-files/appstore.png" class="img-fluid">
+			</div>
+		</div>	
+	</div>
+<!-- company grid -->
+	<div class="bg-light pb-3 pt-4">
+		<div class="container">
+		<div class="row d-flex font-weight-bold">
+		    <div class="col pb-4">
+			    <h5 class="font-weight-bold pb-2">Brands</h5>
+			    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 fs-14">
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Adidas</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Puma</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Reebok</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Nike</a>
+			      </li>
+			    </ul>
+		    </div>
+		    <div class="col pb-4">
+		      	<h5 class="font-weight-bold pb-2">Company</h5>
+		      	<ul class="navbar-nav mr-auto mt-2 mt-lg-0 fs-14">
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">About us</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">career</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Find a store</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Rules and terms</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Site map</a>
+			      </li>
+			    </ul>
+		    </div>
+		    <div class="w-100 d-block d-sm-block d-md-none"></div>
+		    <div class="col pb-4">
+		      	<h5 class="font-weight-bold pb-2">Help</h5>
+		      	<ul class="navbar-nav mr-auto mt-2 mt-lg-0 fs-14 text-secondary">
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Contact us</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Money refund</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Order status</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Shopping info</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Open dispute</a>
+			      </li>
+			    </ul>
+		    </div>
+		    <div class="col pb-4">
+		      	<h5 class="font-weight-bold pb-2">Account</h5>
+		      	<ul class="navbar-nav mr-auto mt-2 mt-lg-0 fs-14 text-secondary">
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">User login</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">User Register</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">Account Setting</a>
+			      </li>
+			      <li class="nav-item pb-1">
+			        <a class="text-secondary" href="#">My Orders</a>
+			      </li>
+			    </ul>
+		    </div>
+		    <div class="w-100 d-block d-sm-block d-md-none"></div>
+		    <div class="col pb-4">
+			    <h5 class="font-weight-bold pb-2">Social</h5>
+			    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 fs-14">
+				    <li class="nav-item pb-1">
+				        <a class="text-secondary" href="#"><i class="fab fa-facebook mr-1"></i>facebook</a>
+				    </li>
+				    <li class="nav-item pb-1">
+				        <a class="text-secondary" href="#"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+				    </li>
+				    <li class="nav-item pb-1">
+				 		<a class="text-secondary" href="#"><i class="fab fa-instagram mr-1"></i>Instagram</a>
+				    </li>
+				    <li class="nav-item pb-1">
+						<a class="text-secondary" href="#"><i class="fab fa-youtube mr-1"></i>Youtube</a>
+				    </li>
+			    </ul>
+		    </div>
+
+		</div>
+		</div> 
+		<div class="container">	
+		  	<div class="row mt-5">
+		  		<div class="col-lg-3 col-md-3 col-sm-12 col-12 pb-4 fs-14">
+		  			<a href="#" class="text-secondary"><i class="far fa-copyright"></i>2019 Company name</a>
+		  		</div>
+		  		<div class="col-lg-6 col-md-6 col-sm-12 col-12 pb-4 fs-14">
+		  			<p class="text-secondary text-center">info@pixsellz.io  +784645734326  street name 123,avanue abc</p>
+		  		</div>
+		  		<div class="col-lg-3 col-md-3 col-sm-12 col-12 pb-4 text-right">
+		  			<i class="fab fa-lg fa-cc-visa text-secondary"></i>
+		  			<i class="fab fa-lg fa-cc-paypal text-secondary"></i>
+		  			<i class="fab fa-lg fa-cc-mastercard text-secondary"></i>
+		  		</div>
+		  	</div>
+		</div>
+	</div>
+</body>
+</html>

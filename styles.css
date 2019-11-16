@@ -1,0 +1,32 @@
+body{
+font-family: "Inter", Arial, "Helvetica Neue", "Segoe UI", sans-serif, "Apple Color Emoji",
+			 "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.walmart-header{
+    background-color: blue;
+}
+img.walmart-logo {
+    height: 50px;
+}
+.walmart-delivery p {
+	font-weight: 600;
+}
+.walmart-delivery i {
+	font-size: 20px;
+}
+.fs-20{
+	font-size: 20px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-14{
+	font-size: 14px;
+}
+
+
